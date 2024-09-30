@@ -6,14 +6,54 @@
     background-color: #FA8072;
 }
 
+.playground {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 710px;
+    padding: 10px;
+    border: 1px solid black;
+    background-color: bisque;
+    position: relative;
+}
+
+#box {
+    height: 100px;
+    position: relative;
+    left: 850px;
+    top: 310px;
+}
+
+#cat {
+    height: 80px;
+    position: relative;
+    left: 935px;
+    top: 270px;
+}
+
+#cat:hover {
+    height: 80px;
+    position: relative;
+    left: 935px;
+    top: 250px;
+    cursor: pointer;
+}
+
 #span {
     color: #800000;
     letter-spacing: 2px;
     font-family: "Anime Ace v3";
 }
 
+#span1 {
+    display: none;
+    color: #800000;
+    letter-spacing: 2px;
+    font-family: "Anime Ace v3";
+}
+
 #logo {
-    height: 150px;
+    height: 200px;
 
 }
 
@@ -21,43 +61,6 @@
     display: none;
     height: 150px;
 }
-
-@media (max-width: 530px) {
-    #logo {
-        display: none;
-    }
-
-}
-
-@media (hover: hover) and (max-width: 530px) and (min-aspect-ratio: 1/1) {
-    #logo1 {
-        display: flex;
-    }
-    #logo {
-        display: none;
-    }
-    .header {
-        cursor:pointer;
-    }
-}
-
-/*@media (max-width: 320px) {*/
-/*}*/
-
-/*@media (min-width: 321px) and (max-width: 480px) {*/
-/*}*/
-
-/*@media (min-width: 481px) and (max-width: 768px) {*/
-/*}*/
-
-/*@media (min-width: 769px) and (max-width: 1024px) {*/
-/*}*/
-
-/*@media (min-width: 1025px) and (max-width: 1200px) {*/
-/*}*/
-
-/*@media (min-width: 1200px) {*/
-/*}*/
 
 @font-face {
     font-family: "Anime Ace v3";
