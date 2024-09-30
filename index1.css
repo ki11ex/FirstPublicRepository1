@@ -1,0 +1,55 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 32px;
+    background-color: azure;
+}
+
+#logo {
+    height: 150px;
+
+}
+
+#logo1 {
+    display: none;
+    height: 150px;
+}
+
+@media (max-width: 530px) {
+    #logo {
+        display: none;
+    }
+
+}
+
+@media (hover: hover) and (max-width: 530px) and (min-aspect-ratio: 1/1) {
+    #logo1 {
+        display: flex;
+    }
+    #logo {
+        display: none;
+    }
+    .header {
+        cursor:pointer;
+    }
+}
+
+/*@media (max-width: 320px) {*/
+/*}*/
+
+/*@media (min-width: 321px) and (max-width: 480px) {*/
+/*}*/
+
+/*@media (min-width: 481px) and (max-width: 768px) {*/
+/*}*/
+
+/*@media (min-width: 769px) and (max-width: 1024px) {*/
+/*}*/
+
+/*@media (min-width: 1025px) and (max-width: 1200px) {*/
+/*}*/
+
+/*@media (min-width: 1200px) {*/
+/*}*/
+
