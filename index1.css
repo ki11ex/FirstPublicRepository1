@@ -1,9 +1,15 @@
 .header {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
-    font-size: 32px;
-    background-color: azure;
+    font-size: 40px;
+    background-color: #FA8072;
+}
+
+#span {
+    color: #800000;
+    letter-spacing: 2px;
+    font-family: "Anime Ace v3";
 }
 
 #logo {
@@ -52,4 +58,11 @@
 
 /*@media (min-width: 1200px) {*/
 /*}*/
+
+@font-face {
+    font-family: "Anime Ace v3";
+    src: url("../fonts/Anime Ace v3.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
 
